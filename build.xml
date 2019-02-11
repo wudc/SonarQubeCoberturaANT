@@ -28,7 +28,7 @@
 		</fileset>
 	</path>	
 
-	<target name="init">
+	<target name="init" depends="clean">
 		<mkdir dir="${classes.dir}" />
 		<mkdir dir="${instrumented.dir}" />
 		<mkdir dir="${reports.xml.dir}" />
@@ -40,6 +40,7 @@
 
 	<target name="compile" depends="init">
 		<javac srcdir="${src.dir}" destdir="${classes.dir}" debug="yes">
+			<classpath refid="project.classpath" />
 			<classpath refid="cobertura.classpath" />
 		</javac>
 		<javac srcdir="${test.dir}" destdir="${classes.dir}" debug="yes">
@@ -73,20 +74,20 @@
 					don't instrument the test classes.
 				-->
 				<include name="**/*.class" />
-				<exclude name="**/*Test.class" />
+				<include name="**/*Test.class" />
 			</fileset>
 		</cobertura-instrument>
 	</target>
 
 	<target name="test" depends="init,compile">
-		<junit fork="yes" dir="${basedir}" failureProperty="test.failed">
+		<junit fork="yes" dir="${basedir}" failureProperty="test.failed" showoutput="true">
 			<!--
 				Note the classpath order: instrumented classes are before the
 				original (uninstrumented) classes.  This is important.
 			-->
 			<classpath location="${instrumented.dir}" />
 			<classpath location="${classes.dir}" />
-
+			<classpath refid="project.classpath" />
 			<!--
 				The instrumented classes reference classes used by the
 				Cobertura runtime, so Cobertura and its dependencies
@@ -97,8 +98,8 @@
 			<formatter type="xml" />
 			<test name="${testcase}" todir="${reports.xml.dir}" if="testcase" />
 			<batchtest todir="${reports.xml.dir}" unless="testcase">
-				<fileset dir="${src.dir}">
-					<include name="**/*Test.java" />
+				<fileset dir="${test.dir}">
+					<include name="**/*Test*.java" />
 				</fileset>
 			</batchtest>
 		</junit>

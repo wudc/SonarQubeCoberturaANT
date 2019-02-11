@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="DESKTOP-6VD7C9P" id="0" name="FreshmanMoveInDayTest" package="com.cjet.academy" skipped="0" tests="3" time="0.014" timestamp="2019-02-11T14:55:19">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="coverage.summaryxml.dir" value="reports/cobertura-summary-xml" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="D:\tools\eclipse\eclipse-4.7\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="D:\tools\Java\jdk1.8.0_121\jre\lib\resources.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\rt.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\jsse.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\jce.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\charsets.jar;D:\tools\Java\jdk1.8.0_121\jre\lib\jfr.jar;D:\tools\Java\jdk1.8.0_121\jre\classes" />
+
+          <property name="reports.html.dir" value="reports/junit-html" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840" />
+
+          <property name="java.runtime.version" value="1.8.0_121-b13" />
+
+          <property name="cobertura.dir" value="cobertura" />
+
+          <property name="user.name" value="wudc" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="D:\tools\Java\jdk1.8.0_121\jre\bin" />
+
+          <property name="reports.dir" value="reports" />
+
+          <property name="ant.project.default-target" value="coverage" />
+
+          <property name="ant.project.name" value="Junit-ANT-Cobertura" />
+
+          <property name="java.version" value="1.8.0_121" />
+
+          <property name="coverage.html.dir" value="reports/cobertura-html" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="D:\tools\Java\jdk1.8.0_121\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="D:\tools\Java\jdk1.8.0_121\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.121-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="ant.file.Junit-ANT-Cobertura" value="D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\build.xml" />
+
+          <property name="ant.file.type.Junit-ANT-Cobertura" value="file" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="D:\tools\eclipse\eclipse-4.7\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+
+          <property name="reports.xml.dir" value="reports/junit-xml" />
+
+          <property name="user.home" value="C:\Users\wudc" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="coverage.xml.dir" value="reports/cobertura-xml" />
+
+          <property name="test.dir" value="src/test/java" />
+
+          <property name="java.library.path" value="D:\tools\Java\jdk1.8.0_121\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/tools/Java/jdk1.8.0_121/bin/../jre/bin/server;D:/tools/Java/jdk1.8.0_121/bin/../jre/bin;D:/tools/Java/jdk1.8.0_121/bin/../jre/lib/amd64;D:\tools\nvidia\CUDA\Development\v9.0\bin;D:\tools\nvidia\CUDA\Development\v9.0\libnvvp;D:\tools\apache\apache-ant-1.9.4\bin;C:\Program Files\Microsoft MPI\Bin\;D:\tools\Java\jdk1.8.0_121\bin;D:\tools\Git\bin;D:\tools\apache\apache-maven-3.3.3\bin;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\wudc\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;D:\tools\Mozilla Firefox;C:\Program Files\dotnet\;D:\tools\Yarn\bin\;D:\tools\nodejs;D:\tools\nodejs\node_modules\npm\bin;D:\tools\amazon\AWSCLI;D:\tools\JetBrains\django-master\django\bin;D:\tools\Microsoft\Microsoft VS Code\bin;D:\tools\python\jython\jython-installer-2.7.0\bin;D:\tools\Sonarqube\sonarqube-7.5\bin\windows-x86-64;D:\tools\nvidia\CUDA\Cudnn\bin;D:\tools\Java\jdk1.8.0_121\bin;D:\tools\python\Python36\;D:\tools\python\Python36\Scripts;C:\Users\wudc\AppData\Local\Microsoft\WindowsApps;D:\tools\Git\bin;D:\tools\apache\apache-maven-3.3.3\bin;D:\tools\nvidia\NVIDIA-GPU-SDK\CUDA\v8.0\sdk\libnvvp;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\wudc\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\wudc\AppData\Local\Yarn\bin;C:\Users\wudc\AppData\Local\GitHubDesktop\bin;C:\Users\wudc\AppData\Local\atom\bin;d:\tools\JetBrains\PyCharm Community Edition 2018.3\bin;;D:\tools\eclipse\eclipse-4.7;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.cjet.academy.FreshmanMoveInDayTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\reports\junit-xml\TEST-com.cjet.academy.FreshmanMoveInDayTest.xml crashfile=D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\junitvmwatcher1725512668749765500.properties propsfile=D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\junit5260200599506844163.properties" />
+
+          <property name="java.class.path" value="D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\instrumented;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\classes;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\lib\cobertura-2.1.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\lib\hamcrest-core-1.3.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\lib\hamcrest-library-1.3.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\lib\junit-4.12.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\cobertura-2.1.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\asm-5.0.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\asm-analysis-5.0.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\asm-commons-5.0.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\asm-tree-5.0.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\asm-util-5.0.1.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\commons-lang3-3.3.2.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\hamcrest-core-1.3.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\jaxen-1.1.4.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\jetty-6.1.14.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\jetty-util-6.1.14.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\junit-4.11.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\logback-classic-1.0.13.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\logback-core-1.0.13.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\oro-2.0.8.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\servlet-api-2.5-6.1.14.jar;D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT\cobertura\lib\slf4j-api-1.7.5.jar;D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-launcher.jar;D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar;D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit.jar;D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="D:\tools\eclipse\eclipse-4.7\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+
+          <property name="java.io.tmpdir" value="C:\Users\wudc\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="instrumented.dir" value="instrumented" />
+
+          <property name="java.ext.dirs" value="D:\tools\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="D:\NewGenTechnologies\workspace\software-quality\SonarQubeCoberturaANT" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="D:\tools\eclipse\eclipse-4.7\plugins\org.apache.ant_1.10.1.v20170504-0840\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src/main/java" />
+
+          <property name="ant.project.invoked-targets" value="coverage" />
+
+      </properties>
+
+      <testcase classname="com.cjet.academy.FreshmanMoveInDayTest" name="testDormroomCheckList" time="0.0" />
+
+      <testcase classname="com.cjet.academy.FreshmanMoveInDayTest" name="testAddPencils" time="0.001" />
+
+      <testcase classname="com.cjet.academy.FreshmanMoveInDayTest" name="testCreateBackpack" time="0.0" />
+
+      <system-out><![CDATA[09:55:19,591 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:55:19,592 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:55:19,592 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/D:/NewGenTechnologies/workspace/software-quality/SonarQubeCoberturaANT/lib/cobertura-2.1.1.jar!/logback.xml]
+09:55:19,605 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+09:55:19,605 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/D:/NewGenTechnologies/workspace/software-quality/SonarQubeCoberturaANT/lib/cobertura-2.1.1.jar!/logback.xml]
+09:55:19,605 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/D:/NewGenTechnologies/workspace/software-quality/SonarQubeCoberturaANT/cobertura/cobertura-2.1.1.jar!/logback.xml]
+09:55:19,615 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@71c7db30 - URL [jar:file:/D:/NewGenTechnologies/workspace/software-quality/SonarQubeCoberturaANT/lib/cobertura-2.1.1.jar!/logback.xml] is not of type file
+09:55:19,645 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:55:19,654 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:55:19,660 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+09:55:19,672 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:55:19,694 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [net.sourceforge.cobertura] to INFO
+09:55:19,695 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+09:55:19,695 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+09:55:19,695 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:55:19,695 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@19bb089b - Registering current configuration as safe fallback point
+
+Inside testDormroomCheckList()
+Dorm room move in checklist completed.
+Dorm room move in checklist incompleted.
+Inside testAddPencils()
+Now my backpack contains: [Books, laptop, Pens, Pencils]
+Inside testPrepareMyBag()
+My school bag contains: [Books, laptop, Pens]
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
