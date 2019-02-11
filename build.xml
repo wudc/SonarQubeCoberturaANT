@@ -3,11 +3,11 @@
 <project name="Junit-ANT-Cobertura" default="coverage" basedir=".">
 
 	<description>
-    
+		Junit test project with SonarQube and Cobertura.
     </description>
 
 	<property file="build.properties" />
-Junit test project with SonarQube and Cobertura.
+
 	<path id="cobertura.classpath">
 		<fileset dir="${cobertura.dir}">
 			<include name="cobertura*.jar" />
@@ -74,7 +74,7 @@ Junit test project with SonarQube and Cobertura.
 		</cobertura-instrument>
 	</target>
 
-	<target name="test" depends="compile">
+	<target name="test" depends="init,compile">
 		<junit fork="yes" dir="${basedir}" failureProperty="test.failed" showoutput="true">
 			<!--
 				Note the classpath order: instrumented classes are before the
