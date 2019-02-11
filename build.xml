@@ -3,16 +3,11 @@
 <project name="Junit-ANT-Cobertura" default="coverage" basedir=".">
 
 	<description>
-    Cobertura - http://cobertura.sourceforge.net/
-    Copyright (C) 2003 jcoverage ltd.
-    Copyright (C) 2005 Mark Doliner &lt;thekingant@users.sourceforge.net&gt;
-    Copyright (C) 2006 Dan Godfrey
-    Cobertura is licensed under the GNU General Public License
-    Cobertura comes with ABSOLUTELY NO WARRANTY
+    
     </description>
 
 	<property file="build.properties" />
-
+Junit test project with SonarQube and Cobertura.
 	<path id="cobertura.classpath">
 		<fileset dir="${cobertura.dir}">
 			<include name="cobertura*.jar" />
