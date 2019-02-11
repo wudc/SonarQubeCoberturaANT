@@ -79,7 +79,7 @@
 		</cobertura-instrument>
 	</target>
 
-	<target name="test" depends="init,compile">
+	<target name="test" depends="compile">
 		<junit fork="yes" dir="${basedir}" failureProperty="test.failed" showoutput="true">
 			<!--
 				Note the classpath order: instrumented classes are before the
